@@ -1,0 +1,224 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+<meta charset="utf-8">
+<title>Portfolio Detail</title>
+<!--[if IE]>
+
+
+
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+
+
+<![endif]-->
+ 
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+ 
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen">
+ 
+<link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css"/>
+ 
+<link rel="stylesheet" href="css/cycle.css" type="text/css">
+ 
+<link rel="stylesheet" href="css/portfolio.css" type="text/css">
+ 
+<link rel="stylesheet" href="css/lightbox.min.css">
+ 
+ 
+<script src="js/libs/jquery-1.7.1.min.js"></script>
+ 
+<script src="js/idangerous.swiper-1.8.min.js"></script>
+ 
+<script src="js/bootstrap.js"></script>
+ 
+<script src="js/custom.js"></script>
+ 
+<script src="js/jquery.mCustomScrollbar.min.js"></script>
+ 
+<script type="text/javascript" src="js/jquery.cycle.all.latest.js"></script>
+ 
+<script type="text/javascript" src="js/skeleton.js"></script>
+<script type="text/javascript" src="js/jquery05.js"></script>
+<script type="text/javascript" src="js/moderniz.js"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+<script type="text/javascript">
+
+$(function() {
+
+
+
+    $('#slideshow_product_detail').cycle({
+
+        fx:      'scrollHorz',
+
+        timeout:  0,
+
+        prev:    '#prev',
+
+        next:    '#next',
+
+        pagerAnchorBuilder: pagerFactory
+
+    });
+
+
+
+    function pagerFactory(idx, slide) {
+
+        var s = idx > 2 ? ' style="display:none"' : '';
+
+        return '<li'+s+'><a href="portfolio.html#">'+(idx+1)+'</a></li>';
+
+    };
+
+    
+
+});
+
+</script>
+</head>
+<body class="blog-d-holder">
+ 
+<h1 id="logo"> <a href="index.html"><img src="images/logo.png" alt="Sinetory"/></a> </h1>
+<nav id="nav">
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+<div class="nav-collapse">
+<ul class="nav" id="side_navigation">
+<li> <a href="index.html"> Home</a></li>
+<li> <a href="index.html#about"> About </a> </li>
+<li> <a href="index.html#product"> product </a> </li>
+<li class="active"> <a href="index.html#portfolio"> Portfolio </a></li>
+<li> <a href="index.html#blog"> Blog </a> </li>
+<li> <a href="index.html#services"> Services </a> </li>
+<li> <a href="index.html#contact"> Contact </a> </li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+<section id="wrapper">
+ 
+<section class="blue-2" id="blog-detail">
+<section class="content-holder">
+<div class="single-page">
+<section id="blog">
+ 
+<section class="container-fluid">
+<section class="row-fluid">
+<section class="span12">
+<h2>Project Detail</h2>
+</section>
+<section class="span12 first ">
+<section class="slideshow_wrapper">
+<section class="project_description span7">
+<div id="slide_show">
+<div class="navi"> <a href="portfolio.html#"><span id="prev">Prev</span></a> <a href="portfolio.html#"><span id="next">Next</span></a>
+<ul id="nav">
+</ul>
+</div>
+<div id="slideshow_product_detail" class="pics"> <img src="images/large_1.jpg" alt="Preview 1"/> <img src="images/large_2.jpg" alt="Preview 2"/> <img src="images/large_3.jpg" alt="Preview 3"/> </div>
+</div>
+</section>
+<section class="span4 slideshow_detail">
+<h3> <a href="portfolio.html#"> Project Title </a> </h3>
+<h5> Website design, promotion </h5>
+<p> Vivamus mi diam, facilisis sed euismod ac, rhoncus tempus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+<p> Nam consequat augue nec urna placerat at tincidunt eros mattis. Maecenas at massa neque, sed ornare magna. Vivamus mi diam, facilisis sed euismod ac, rhoncus tempus eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris at nunc sed turpis luctus malesuada eu eget ipsum. </p>
+<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consequat augue nec urna placerat at tincidunt eros mattis. Nam consequat augue nec urna placerat at tincidunt eros mattis. </p>
+<a href="portfolio.html#"> Visit Website </a> </section>
+</section>
+<section class="related_project">
+<h3> Related Projects </h3>
+<figure class="span4 first related_description"> <img src="images/image35.jpg" alt=""/>
+<h4> <a href="portfolio.html#"> Project Title </a> </h4>
+<p> No more programming, no more constantly changing the temperature. programs... </p>
+</figure>
+<figure class="span4 related_description"> <img src="images/image36.jpg" alt=""/>
+<h4> <a href="portfolio.html#"> Project Title </a> </h4>
+<p> No more programming, no more constantly changing the temperature. programs... </p>
+</figure>
+<figure class="span4 related_description"> <img src="images/image37.jpg" alt=""/>
+<h4> <a href="portfolio.html#"> Project Title </a> </h4>
+<p> No more programming, no more constantly changing the temperature. programs... </p>
+</figure>
+</section>
+</section>
+</section>
+</section>
+</section>
+</div>
+</section>
+</section>
+ 
+ 
+<section id="bottom"> <a href="javascript:void(0);" class="sidebar_button_inner"> <span> <span>Sidebar</span> </span> </a>
+<div class="bottom_outer">
+<div class="bottom_outer_inner">
+<section class="container-fluid">
+<section class="row-fluid">
+<article class="span3 contact-box">
+<h2>Contact Us</h2>
+<strong class="f-title">Lorem ipsum dolor sit amet, </strong>
+<ul class="a-list">
+<li><span>E</span> <a href="portfolio.html#"><span class="__cf_email__" data-cfemail="f891969e97b8999a9bd69b9795">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a></li>
+<li><span>P</span> (03) 9384 7382</li>
+<li><span>F</span> (03) 9384 7382</li>
+</ul>
+<p>16 Street Name to go here
+Surburb name to go here
+Country, 3940</p>
+</article>
+<article class="span3">
+<h2>Latest Articles</h2>
+<strong class="f-title">Donec a purus nec . Lorem ipsum </strong>
+<div id="slideshowContainer2">
+<div class="slideshow2"> <img src="images/image16.jpg" alt="image16"/> <img src="images/image17.jpg" alt="image17"/> <img src="images/image18.jpg" alt="image18"/> </div>
+</div>
+</article>
+<article class="span3">
+<h2>Text Widget</h2>
+<strong class="f-title">Donec a purus nec . Lorem ipsum </strong>
+<p>Maecenas laoreet lectus est, eget ultricies eros. Aliquam ipsum fringilla.Maecenas laoreet eget ultricies Aliquam ipsum tincidunt non Maecenas laoreet tincidunt non fringilla.
+Maecenas laoreet ....</p>
+</article>
+<article class="span3">
+<h2>Get in Touch</h2>
+<strong class="f-title">Say Hello...</strong>
+<form action="portfolio.html#">
+<ul class="getintouch">
+<li>
+<input name="name" type="text" value="Name" class="field-bg">
+</li>
+<li>
+<input name="name" type="text" value="E-mail" class="field-bg">
+</li>
+<li>
+<textarea cols="" rows="" class="field-bg">What's on your mind?</textarea>
+</li>
+<li>
+<input name="" type="submit" class="sendbtn" value="Send it">
+</li>
+</ul>
+</form>
+</article>
+</section>
+</section>
+<footer class="copy-right-sec">
+<p>Copyright © 2016 All rights reserved Designed by <a href="crunchpress.htm">CrunchPress.com</a></p>
+</footer>
+</div>
+</div>
+</section>
+ 
+</section>
+</body>
+</html>
